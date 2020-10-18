@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*Flecha para hacer la pagina hacia arriba*/
+#irArriba {
+    width: 60px;
+    height: 60px;
+    background: #4c1dd788;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    border: 4px solid transparent;
+    transition: all 300ms ease;
+    transform: scale(0);
+}
+
+#irArriba:hover {
+    transform: scale(1.1);
+    border-color: rgba(0,0,0,0.1);
+}
+
+.navMenuPrincipal {
+    width: 100%;
+    background: #4c1dd788;
+    text-align: center;
+    font-size: 24px;
+    position:fixed;
+    z-index: 100;
+    margin: auto;
+    top: 0px;
+    transition: top 0.5s;
+}
+
+.navMenuPrincipal a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    transition: 750ms;
+}
+
+.navPrincipal {
+    width: 85%;
+    float: left;
+}
+
+.navPrincipal a:hover {
+    color: #fff;
+    font-size: 48px;
+    transition: 750ms;
+}
+
+.lenguaje {
+    width: 15%;
+    float: right;
+}
+
+.lenguaje img {
+    width: 32px;
+    transition: 750ms;
+}
+
+.lenguaje img:hover {
+    width: 64px;
+    transition: 750ms;
+}
+
+/* Cambios de Tonos en Cada Section */
+.sectionInicio {
+    background: #d0d0d0;
+}
+
+.sectionObjetivo {
+    background: #dfdfdf;
+}
+
+.sectionSobreNosotros {
+    background: #d0d0d0;
+}
+
+.sectionApoyar {
+    background: #dfdfdf;
+}
+
+.sectionContacto {
+    background: #d0d0d0;
+}
+
+/* Orden de los Textos */
+h1 {
+    font-size: 64px;
+    text-align: center;
+}
+.contBTNtexto0{
+    text-align: center;
+}
+
+h2 {
+    font-size: 54px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 42px;
+}
+
+p {
+    font-size: 32px;
+}
+
+div {
+    padding: 25px;
+}
+
+input {
+    background: #808080;
+    font-size: 26px;
+}
+
+input:hover {
+    color: #808080;
+    background: #000;
+    cursor: pointer;
+}
+
+/* Botonera de Donaciones */
+.botoneraDonacion {
+    text-align: center;
+    background: #808080;
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: auto;
+}
+
+.botonGitHub {
+    background: #606060;
+    width: fit-content;
+    max-width: 70%;
+}
+
+.botonBrave {
+    background: #606060;
+    width: fit-content;
+    max-width: 70%;
+}
+
+.botoneraDonacion a img {
+    width: 90px;
+}
+
+.botoneraDonacion .botonGitHub .masAyuda {
+    float: right;
+}
+
+.botoneraDonacion .botonBrave .masAyuda {
+    float: left;
+}
+
+.botoneraDonacion .masAyuda img {
+    width: 32px;
+    transition: 1250ms;
+}
+
+.botoneraDonacion .masAyuda img:hover {
+    width: 64px;
+    transition: 1250ms;
+}
+
+.spoilerGitHub {
+    display: none;
+}
+
+.spoilerBrave {
+    display: none;
+}
+
+/* Pie de Pagina */
+.pieDePagina {
+    background: #4d1dd7;
+    text-align: center;
+}
+
+.pieDePagina a {
+    color: #000;
+    text-decoration: none;
+}
+
+.pieDePagina a:hover {
+    color: #fff;
+    transition: 1250ms;
+}
+
+/* Pie de contacto */
+.sectionContacto footer {
+    text-align: center;
+}
